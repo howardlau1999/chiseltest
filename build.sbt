@@ -5,7 +5,7 @@ name := "chiseltest"
 
 version := "0.6-SNAPSHOT"
 
-scalaVersion := "2.12.15"
+scalaVersion := "2.13.8"
 
 crossScalaVersions := Seq("2.12.15", "2.13.7")
 
@@ -51,8 +51,8 @@ publishTo := {
 
 // Provide a managed dependency on X if -DXVersion="" is supplied on the command line.
 val defaultVersions = Map(
-  "chisel3" -> "3.6-SNAPSHOT",
-  "treadle" -> "1.6-SNAPSHOT"
+  "chisel3" -> "3.5.1",
+  "treadle" -> "1.5.1"
 )
 
 scalacOptions ++= Seq(
